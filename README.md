@@ -1,5 +1,5 @@
 
-#Useful Commands for day-to-day <h1> activities
+# <h1> Useful Commands for day-to-day activities #
 
 Command to copy directory or a filename from one machine to another. Below command works on the source machine
 
