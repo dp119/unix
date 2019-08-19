@@ -1,7 +1,8 @@
 
-# <h1> Useful Commands for day-to-day activities #
+# <h1> Useful Unix Commands for day-to-day activities #
 
-Command to copy directory or a filename from one machine to another. Below command works on the source machine
+
+# <h2> Command to copy directory or a filename from one machine to another. Below command works on the source machine #
 
 scp -r directory|filename username@machine:targetpath
 scp -r logs chkuat02@chkuatap009:~/
