@@ -33,8 +33,9 @@ find . -type f -name test.log
 
 
 
+# <h3> Command to send file attachment via mail and without any body
 
-
+mailx -s subject -a attachment deepakprasad119@gmail.com < /dev/null
 
 
 
