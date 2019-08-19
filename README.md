@@ -19,7 +19,7 @@ df -h
 
 
 
-# <h3> Command to list the directories and their size#
+# <h3> Command to list the directories and their size
 
 df -h --max -depth=1
 
