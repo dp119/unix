@@ -1,5 +1,5 @@
 
-# <h1> Useful Unix Commands for day-to-day activities #
+# <h2> Unix Commands for day-to-day activities #
 
 
 # <h3> Command to copy directory or a filename from one machine to another. Below command works on the source machine
