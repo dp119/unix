@@ -28,4 +28,5 @@ df -h --max -depth=1
 # <h3> Command to find filename or directory#
 
 find . -type d -aname logs
+
 find . -type f -name test.log
