@@ -5,10 +5,14 @@
 # <h2> Command to copy directory or a filename from one machine to another. Below command works on the source machine #
 
 scp -r directory|filename username@machine:targetpath
+
 scp -r logs chkuat02@chkuatap009:~/
 
 
-Command to find the disk space (in GB)
+
+
+
+# <h3> Command to find the disk space (in GB) #
 
 df -h
 
