@@ -30,3 +30,7 @@ df -h --max -depth=1
 find . -type d -aname logs
 
 find . -type f -name test.log
+
+
+
+*This is a markdown file. Create one yourself from here [markdown] (https://guides.github.com/features/mastering-markdown/)*
