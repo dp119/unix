@@ -100,7 +100,7 @@ Command to list the directories and their size
 	kill -9 `lsof -t -u dprasad`
 	
 
-# <h4> Unix concepts to refreshed
+# <h4> Unix concepts to be refreshed
 
 
 	Inode
