@@ -100,9 +100,9 @@ Command to list the directories and their size
 	kill -9 `lsof -t -u dprasad`
 	
 
-# <h4> To find the list of all open files in unix
+# <h4> Unix concepts to refreshed
 
-Unix concepts to refreshed
+
 	Inode
 
 	In unix filesystem, in all directores, find all unique files using hashmap function (not to use filename or size or timestamp) in python and remove all duplicate files
