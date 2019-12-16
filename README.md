@@ -58,7 +58,7 @@ Command to list the directories and their size
 	
 
 	
-# <h3> To find the list of all open files in unix
+# <h2> To find the list of all open files in unix
 
 	lsof
 	
@@ -71,6 +71,7 @@ Command to list the directories and their size
 # <h6> Processes using specific port 
 
 	lsof -i TCP:22
+	netstat -aon
 	
 # <h6> List Only IPv4 & IPv6 Open Files
 
@@ -98,5 +99,19 @@ Command to list the directories and their size
 
 	kill -9 `lsof -t -u dprasad`
 	
+
+# <h4> To find the list of all open files in unix
+
+Unix concepts to refreshed
+	Inode
+
+	In unix filesystem, in all directores, find all unique files using hashmap function (not to use filename or size or timestamp) in python and remove all duplicate files
+
+	netstat
+
+	vmstat
+
+	Unix script to read a file line by line and pass it as a parameter to another command
+
 
 # <h6> *This is a markdown file. Learn more about it [here](https://guides.github.com/features/mastering-markdown/) .*
