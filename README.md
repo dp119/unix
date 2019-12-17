@@ -115,10 +115,14 @@ Command to list the directories and their size
 
 	git stash
 
+	difference between branch and tag in git
+
+	What are heira files in puppet
+
 	how to merge changes from forked repo to original repo
 
 	Ways of authenticating in Jenkins and job level authorization
 
 	List of python libraries used
-	
+
 # <h6> *This is a markdown file. Learn more about it [here](https://guides.github.com/features/mastering-markdown/) .*
