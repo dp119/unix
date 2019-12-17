@@ -113,5 +113,12 @@ Command to list the directories and their size
 
 	Unix script to read a file line by line and pass it as a parameter to another command
 
+	git stash
 
+	how to merge changes from forked repo to original repo
+
+	Ways of authenticating in Jenkins and job level authorization
+
+	List of python libraries used
+	
 # <h6> *This is a markdown file. Learn more about it [here](https://guides.github.com/features/mastering-markdown/) .*
