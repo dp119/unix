@@ -122,9 +122,9 @@ Command to list the directories and their size
 
 # <h6> What are ip tables in linux?
 
-	IP tables command line interface used to setup and maintain netfilter firewall for IPv4 included in linux kernel.
+IP tables command line interface used to setup and maintain netfilter firewall for IPv4 included in linux kernel.
 
-	The firewall matches packets rules defined in these tables and takes specified action.
+The firewall matches packets rules defined in these tables and takes specified action.
 	
 	RULE is the condition used to match packet
 	CHAIN is the Collection of rules
@@ -138,7 +138,22 @@ Command to list the directories and their size
 
 # <h6> How to install Tomcat package in LINUX (steps)
 
+For private IP address
+	
+	ifconfig -a
+	hostname -I | awk '{print $1}'
+	
+	
+For public IP address
+	
+	curl ifconfig.me
+	
 
+Below are the files to configure IP address
+
+	vi /etc/sysconfig/network
+	vi /etc/resolv.conf
+	
 
 # <h6> How to check ip address in linux and where to set the ip address config?
 
@@ -149,7 +164,7 @@ Command to list the directories and their size
 	
 # <h6> Check if a service is running
 
-	List all services in init system
+List all services in init system
 	
 	service [service_name] status
 	service --status-all | more
@@ -159,7 +174,7 @@ Command to list the directories and their size
 	service httpd stop
 	
 	
-	List all services in systemd system
+List all services in systemd system
 	
 	systemctl
 	systemctl status apache2
