@@ -63,51 +63,51 @@ Command to list the directories and their size
 	lsof
 	
 
-# <h6> List of open files by a specific user
+# <h3> List of open files by a specific user
 
 	lsof -u dprasad
 	
 	
-# <h6> Find processes using specific port or Find if a port is listening
+# <h3> Find processes using specific port or Find if a port is listening
 
 	lsof -i TCP:22
 	netstat -aon
 	
-# <h6> List Only IPv4 & IPv6 Open Files
+# <h3> List Only IPv4 & IPv6 Open Files
 
 	lsof -i 4
 	lsof -i 6
 	
-# <h6> List open files of TCP port ranges 1-1024
+# <h3> List open files of TCP port ranges 1-1024
 
 	lsof -i TCP:1-1024
 	
-# <h6> Exclude User with ‘^’ Character
+# <h3> Exclude User with ‘^’ Character
 
 	lsof -i -u^root #excludes root user in this example
 	
 
-# <h6> Find Out who’s Looking What Files and Commands
+# <h3> Find Out who’s Looking What Files and Commands
 
 	lsof -i -u dprasad
 
-# <h6> Search by PID
+# <h3> Search by PID
 
 	lsof -p 100
 	
-# <h6> Kill all activity of particular user
+# <h3> Kill all activity of particular user
 
 	kill -9 `lsof -t -u dprasad`
 	
 
-# <h6> What is the difference between UNIX and LINUX?
+# <h3> What is the difference between UNIX and LINUX?
 
 	Unix originally began as a propriety operating system from Bell Labs and spawned into different commercial versions
 	
 	Linux is a OS based on UNIX, it is free and open source intended as non-proprietary OS
 
 
-# <h6> Difference between df and duplicate
+# <h3> Difference between df and duplicate
 
 
 	du == Disk Usage. It walks through directory tree and counts the sum size of all files therein. It may not output exact information due to the possibility of unreadable files, hardlinks in directory tree, etc. It will show information about the specific directory requested. Think, "How much disk space is being used by these files?"
@@ -115,12 +115,12 @@ Command to list the directories and their size
 	df == Disk Free. Looks at disk used blocks directly in filesystem metadata. Because of this it returns much faster that du but can only show info about the entire disk/partition. Think, "How much free disk space do I have?"
 
 
-# <h6> How to install any package in linux
+# <h3> How to install any package in linux
 
 	yum install
 
 
-# <h6> What are ip tables in linux?
+# <h3> What are ip tables in linux?
 
 IP tables command line interface used to setup and maintain netfilter firewall for IPv4 included in linux kernel.
 
@@ -136,7 +136,7 @@ The firewall matches packets rules defined in these tables and takes specified a
 	After clicking Apply this file is overwritten 	/etc/sysconfig/iptables 
 
 
-# <h6> How to install Tomcat package in LINUX (steps)
+# <h3> How to install Tomcat package in LINUX (steps)
 
 For private IP address
 	
@@ -155,14 +155,14 @@ Below are the files to configure IP address
 	vi /etc/resolv.conf
 	
 
-# <h6> How to check ip address in linux and where to set the ip address config?
+# <h3> How to check ip address in linux and where to set the ip address config?
 
 
-# <h6> Check running processes 
+# <h3> Check running processes 
 
 	ps -ef 
 	
-# <h6> Check if a service is running
+# <h3> Check if a service is running
 
 List all services in init system
 	
@@ -189,7 +189,7 @@ List all services in systemd system
 	
 
 
-# <h6>  Default for FTP, HTTP, HTTPS
+# <h3>  Default for FTP, HTTP, HTTPS
 
 	FTP 21
 	HTTP 80
@@ -197,7 +197,7 @@ List all services in systemd system
 	SSH 22
 
 
-# <h6> How to change file permissions and ownership
+# <h3> How to change file permissions and ownership
 
 	chmod +x filename
 	chmod -w filename
@@ -217,7 +217,7 @@ List all services in systemd system
 	chgrp group filelist 		# to change the group
 	
 
-# <h6> How to change file permissions to files in specific directory in specific extensions
+# <h3> How to change file permissions to files in specific directory in specific extensions
 
 	chmod -R 755			# permissions to all files and subfolders in the tree 
 	
@@ -227,7 +227,7 @@ List all services in systemd system
 
 
 
-# <h6> Difference between more and less commands in Linux
+# <h3> Difference between more and less commands in Linux
 
 
 # <h4> Unix concepts to be refreshed
@@ -259,4 +259,4 @@ List all services in systemd system
 	
 	Uses of /etc folder
 
-# <h6> *This is a markdown file. Learn more about it [here](https://guides.github.com/features/mastering-markdown/) .*
+# <h3> *This is a markdown file. Learn more about it [here](https://guides.github.com/features/mastering-markdown/) .*
