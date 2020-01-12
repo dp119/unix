@@ -181,7 +181,36 @@ Command to list the directories and their size
 	HTTPS 443
 	SSH 22
 
-# <h6> 
+
+# <h6> How to change file permissions and ownership
+
+	chmod +x filename
+	chmod -w filename
+	
+	+ adds
+	- removes
+	= set permissions
+	
+	Eg:
+	$chmod o+wx,u-x,g = rx testfile							# o is other, u is user, g is the group
+	$ls -l testfile
+	-rw-r-x-wx  1 dp119   users 1024  Nov 5 00:11  testfile
+	
+	
+	chown user filename
+	
+	chgrp group filelist 		# to change the group
+	
+
+# <h6> How to change file permissions to files in specific directory in specific extensions
+
+	chmod -R 755			# permissions to all files and subfolders in the tree 
+	
+	find /opt/lampp/htdocs -type d -exec chmod 755 {} \; 			# to change permissions only to directories recursively
+	
+	find /opt/lampp/htdocs -type f -exec chmod 644 {} \;			# to change permissions only to files recursively
+
+
 
 # <h6> Difference between more and less commands in Linux
 
