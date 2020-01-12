@@ -230,7 +230,7 @@ List all services in systemd system
 # <h3> Difference between more and less commands in Linux
 
 
-# <h4> Unix concepts to be refreshed
+# <h3> Unix concepts to be refreshed
 
 
 	Inode
@@ -259,4 +259,4 @@ List all services in systemd system
 	
 	Uses of /etc folder
 
-# <h3> *This is a markdown file. Learn more about it [here](https://guides.github.com/features/mastering-markdown/) .*
+# <h6> *This is a markdown file. Learn more about it [here](https://guides.github.com/features/mastering-markdown/) .*
