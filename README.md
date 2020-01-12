@@ -68,7 +68,7 @@ Command to list the directories and their size
 	lsof -u dprasad
 	
 	
-# <h6> Processes using specific port 
+# <h6> Find processes using specific port or Find if a port is listening
 
 	lsof -i TCP:22
 	netstat -aon
@@ -141,6 +141,49 @@ Command to list the directories and their size
 
 
 # <h6> How to check ip address in linux and where to set the ip address config?
+
+
+# <h6> Check running processes 
+
+	ps -ef 
+	
+# <h6> Check if a service is running
+
+	List all services in init system
+	
+	service [service_name] status
+	service --status-all | more
+	service --status-all | grep running
+	service httpd status
+	service httpd start
+	service httpd stop
+	
+	
+	List all services in systemd system
+	
+	systemctl
+	systemctl status apache2
+	systemctl | grep apache2
+	systemctl | grep running
+	systemctl list-units --type service
+	
+	
+	
+	pstree 			# this gives output from SysVinit system
+	chkservice		# new tool but needs super user access
+	
+
+
+# <h6>  Default for FTP, HTTP, HTTPS
+
+	FTP 21
+	HTTP 80
+	HTTPS 443
+	SSH 22
+
+# <h6> 
+
+# <h6> Difference between more and less commands in Linux
 
 
 # <h4> Unix concepts to be refreshed
