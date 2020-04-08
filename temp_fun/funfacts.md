@@ -39,9 +39,11 @@ I don't do bungee jump. A broken rubber brought me to this world. But it surely 
 
 
 
+ 
+What gets wetter and wetter the more it dries?
 
 
-
+Who put second foot on moon? Edwin "Buzz" Aldrin
 
 
 
