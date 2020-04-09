@@ -49,8 +49,14 @@ Who put second foot on moon? Edwin "Buzz" Aldrin
 
 
 
+Peacocks do not lay eggs. How are baby peacocks born?
+Peahens
 
+How can a man go 9 days without any sleep!?
+He sleeps at night
 
+How many pears can you put in an empty basket?
+One. Because after one it's not an empty basket anymore.
 
 
 
