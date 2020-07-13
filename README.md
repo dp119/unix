@@ -10,7 +10,8 @@
 	scp -r logs chkuat02@chkuatap009:~/
 
 
-
+# <h3> There is a file with 10 lines. Print all the words in each line that starts with "a".
+	
 
 
 # <h3> Command to find the disk space (in GB)
